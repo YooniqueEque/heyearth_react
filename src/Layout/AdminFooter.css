@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
+footer {
+	background-color: #1A271D;
+	color: white;
+	margin-top:auto;
+	display: grid; 
+	grid-template-columns:13% auto 5%; 
+	text-align: center;
+} 
+.footer_body{
+	display:flex;
+	flex-direction: column;
+	min-height:100vh;
+}
+.footer_left{
+	 padding-top:35px; 
+	 background-color:#1A271D;
+	 display:inline-block; 
+	 height:60px;
+}
+.footer_right{
+	padding-top:35px; 
+	padding-bottom:35px; 
+	color:#1A271D;
+	background-color:#F2EFEF; 
+	height:60px; 
+}
+.insta{
+	padding-top:50px; 
+	padding-bottom:20px; 
+	background-color:#F2EFEF; 
+	height:60px;
+}
+
+.talk_banner_div{
+	float:right;
+}
